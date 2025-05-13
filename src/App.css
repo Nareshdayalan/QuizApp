@@ -1,0 +1,141 @@
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(244, 240, 240);
+  margin: 0 auto;
+  padding: 20px;
+}
+
+  .quiz-settings select, .quiz-settings button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+  .question h2 {
+  margin-bottom: 20px;
+  }
+
+  .answer-options label {
+  display: block;
+  margin: 10px 0;
+  }
+
+  .navigation-buttons {
+  display: flex;
+  gap:88%;
+  margin-top: 20px;
+  }
+
+ .progress-bar {
+  display: flex;
+  width: 10%;
+  height: 10px;
+  background-color: #e0e0e0;
+  margin-bottom: 5px; /* slightly reduced to tighten space */
+  border-radius: 10px;
+}
+
+.progress-bar .progress {
+  height: 100%;
+  background-color: #4caf50;
+  border-radius: 10px;
+}
+
+
+ 
+
+.quiz-settings-container {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin: 50px auto; 
+  background-color: #ffffff;
+  padding: 30px;
+  padding-bottom: 20px;
+  border-radius: 15px;
+ 
+}
+
+.quiz-container{
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+
+.quiz-title {
+  font-size: 24px;
+  color: green;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.quiz-subtitle {
+  text-align: center;
+  color: #555;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.quiz-error {
+  color: #e11d48;
+  font-size: 13px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.form-group select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s;
+}
+
+.form-group select:focus {
+  border-color: #3b82f6;
+  outline: none;
+}
+
+
+button{
+  padding: 10px;
+  background-color:green;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+}
+
+button:hover{
+    background-color: #1e40af;
+}
+
+
+.button-style{
+  margin-top: 20px;
+  display: flex;
+  justify-content: end;
+}
+
+
