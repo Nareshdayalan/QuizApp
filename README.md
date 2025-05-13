@@ -1,7 +1,5 @@
 # React Quiz Application
 
-![image](https://github.com/user-attachments/assets/343e2c5f-67ae-475d-833d-53a92ad28f4a)
-
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Features](#features)
