@@ -13,6 +13,7 @@
 10. [Future Enhancements](#future-enhancements)
 11. [Contributing](#contributing)
 12. [License](#license)
+![Screenshot 2025-05-28 123313](https://github.com/user-attachments/assets/64ae79f0-d817-4441-b1f1-8dc73fd5457b)
 
 ## Introduction
 
